@@ -1,5 +1,4 @@
-# template
-gorf template project
+# gorf template project
 
 ```bash
 go mod edit -replace github.com/go-gorf/auth=../auth
