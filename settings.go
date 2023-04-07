@@ -18,7 +18,7 @@ func LoadSettings() {
 		Name: "db.sqlite",
 	}
 	// app settings
-	auth.AuthSettings.NewUserState = auth.AuthState(true)
+	// auth.AuthSettings.NewUserState = auth.AuthState(true)
 }
 
 // bootstrap server
