@@ -6,9 +6,12 @@ import (
 	"github.com/go-gorf/gorf"
 )
 
+import "template/apps/hello"
+
 // add all the apps
 var apps = []gorf.GorfApp{
 	&auth.AuthApp,
+	&hello.HelloApp,
 }
 
 func LoadSettings() {
