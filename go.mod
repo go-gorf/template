@@ -4,8 +4,8 @@ go 1.20
 
 require (
 	github.com/gin-gonic/gin v1.9.0
-	github.com/go-gorf/auth v0.0.4
-	github.com/go-gorf/gorf v0.0.5
+	github.com/go-gorf/auth v0.0.7
+	github.com/go-gorf/gorf v0.0.7
 )
 
 require (
